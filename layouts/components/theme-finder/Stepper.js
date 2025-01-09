@@ -274,15 +274,15 @@ export const createStepper = () => {
       name: "category",
       component: () => {
         const options = [
+          { value: "business", label: "Business" },
           { value: "blog", label: "Blog" },
           { value: "portfolio", label: "Portfolio" },
-          { value: "personal", label: "Personal" },
-          { value: "documentation", label: "Documentation" },
-          { value: "sass", label: "SaaS Marketing Website" },
+          { value: "dashboard", label: "Dashboard" },
+          { value: "sass", label: "SaaS Landing" },
           { value: "ecommerce", label: "E-commerce store" },
-          { value: "charity", label: "Charity site" },
-          { value: "corporate", label: "Corporate site" },
-          { value: "landing", label: "Landing page" },
+          { value: "boilerplate", label: "Boilerplate" },
+          { value: "documentation", label: "Documentation" },
+          { value: "others", label: "Others" },
         ];
 
         return (
@@ -474,7 +474,7 @@ export const createStepper = () => {
             <ImageSelectionQuizWithSelect
               name={"profession"}
               options={options}
-              placeholder={"select type"}
+              placeholder={"Select Type"}
             />
           </div>
         );
@@ -523,7 +523,7 @@ export const createStepper = () => {
               view="list"
               name={"developer"}
               options={options}
-              placeholder={"select type"}
+              placeholder={"Select Type"}
             />
           </div>
         );

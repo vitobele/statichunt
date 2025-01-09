@@ -37,7 +37,9 @@ function Quiz() {
         : true;
       // Check for category match
       const categoryMatch = category
-        ? theme.category?.some((c) => c.toLowerCase().indexOf(category) !== -1)
+        ? theme.category?.some(
+            (c) => c.toLowerCase().indexOf(category.toLowerCase()) !== -1,
+          )
         : true;
 
       return ssgMatch && categoryMatch;
@@ -70,7 +72,9 @@ function Quiz() {
     });
 
     return { matchThemes: newMatchThemes, ssgAndCategoryFilterTheme };
-  }, [JSON.stringify(finder.value)]);
+  }, [JSON.stringify(finder.value), ActiveStepper.name]);
+
+  console.log({ matchThemes });
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -102,7 +106,7 @@ function Quiz() {
           },
           {
             headers: {
-              authorization_token: `${process.env.NEXT_PUBLIC_TOKEN}`,
+              authorization_token: `Barrier ${process.env.NEXT_PUBLIC_TOKEN}`,
             },
           },
         );
