@@ -278,7 +278,7 @@ export const createStepper = () => {
           { value: "blog", label: "Blog" },
           { value: "portfolio", label: "Portfolio" },
           { value: "dashboard", label: "Dashboard" },
-          { value: "sass", label: "SaaS Landing" },
+          { value: "saas", label: "SaaS Landing" },
           { value: "ecommerce", label: "E-commerce store" },
           { value: "boilerplate", label: "Boilerplate" },
           { value: "documentation", label: "Documentation" },

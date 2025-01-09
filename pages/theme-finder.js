@@ -30,15 +30,13 @@ function Quiz() {
       // Check for ssg match
       const ssgMatch = ssg.filter((ssg) => ssg).length
         ? theme.ssg?.some((themeSsg) =>
-            ssg.some(
-              (s) => s.toLowerCase().indexOf(themeSsg.toLowerCase()) !== -1,
-            ),
+            ssg.some((s) => s.toLowerCase() === themeSsg.toLowerCase()),
           )
         : true;
       // Check for category match
       const categoryMatch = category
         ? theme.category?.some(
-            (c) => c.toLowerCase().indexOf(category.toLowerCase()) !== -1,
+            (c) => c.toLowerCase() === category.toLowerCase(),
           )
         : true;
 
@@ -74,11 +72,8 @@ function Quiz() {
     return { matchThemes: newMatchThemes, ssgAndCategoryFilterTheme };
   }, [JSON.stringify(finder.value), ActiveStepper.name]);
 
-  console.log({ matchThemes });
-
   const handleSubmit = (e) => {
     e.preventDefault();
-
     const first_visit = getCookie("welcomeDate");
     const landing_page = getCookie("welcomeLandingPage");
     const referrer = getCookie("welcomeReferrer");
@@ -111,9 +106,7 @@ function Quiz() {
           },
         );
         finder.nextStep();
-      } catch (error) {
-        console.log(error);
-      }
+      } catch (error) {}
     });
   };
 
