@@ -104,12 +104,17 @@ current_sponsors:
   - name: "ThemeSelection"
     logo: "/sponsors/logos/themeselection.png"
     logo_darkmode: "/sponsors/logos/themeselection-darkmode.png"
-    url: "https://themeselection.com/"
+    url: "https://themeselection.com/?ref=133"
 
   - name: "WrapPixel"
     logo: "/sponsors/logos/wrappixel.png"
     logo_darkmode: "/sponsors/logos/wrappixel-darkmode.png"
-    url: "https://wrappixel.com/"
+    url: "https://www.wrappixel.com/?ref=317"
+
+  - name: "Shadcnblocks"
+    logo: "/sponsors/logos/shadcnblocks.png"
+    logo_darkmode: "/sponsors/logos/shadcnblocks-darkmode.png"
+    url: "https://www.shadcnblocks.com/?via=statichunt"
 
   - name: "Zeon Studio"
     logo: "/sponsors/logos/zeon-studio.png"
@@ -124,12 +129,12 @@ current_sponsors:
   - name: "Themefisher"
     logo: "/sponsors/logos/themefisher.png"
     logo_darkmode: "/sponsors/logos/themefisher-darkmode.png"
-    url: "https://themefisher.com/"
+    url: "https://themefisher.com/?aff=statichunt"
 
   - name: "Gethugothemes"
     logo: "/sponsors/logos/gethugothemes.png"
     logo_darkmode: "/sponsors/logos/gethugothemes-darkmode.png"
-    url: "https://gethugothemes.com/"
+    url: "https://gethugothemes.com/?aff=statichunt"
 
 
 previous_sponsors:
