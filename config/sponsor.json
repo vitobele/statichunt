@@ -31,6 +31,12 @@
       "description": "Largest premium Hugo themes provider. It has a collection of 60+ high-quality themes for users to choose from."
     },
     {
+      "name": "Shadcnblocks",
+      "image": "/sponsors/cards/shadcnblocks-card.webp",
+      "link": "https://www.shadcnblocks.com/?via=statichunt",
+      "description": "The ultimate block set for Shadcn UI & Tailwind. Hundreds of high quality blocks for shadcn/ui ready to copy and paste."
+    },
+    {
       "name": "Sponsor Slot",
       "image": "/sponsors/cards/sponsor-card.webp",
       "link": "/contact",

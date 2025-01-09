@@ -20,9 +20,9 @@
 
   "announcement": {
     "enable": true,
-    "name": " New Sponsor Announcement",
-    "link": "/authors/themeselection",
-    "content": "🎉 New Sponsor: ThemeSelection! Boost productivity with their premium dashboard templates and UI kits. 🚀"
+    "name": " Shadcnblocks Sponsor Announcement",
+    "link": "/authors/shadcnblocks",
+    "content": "🎉 New Sponsor: Shadcnblocks! 350+ of high quality blocks for shadcn/ui ready to copy and paste. 🚀"
   },
 
   "params": {
