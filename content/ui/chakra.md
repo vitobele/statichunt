@@ -8,4 +8,7 @@ website: https://chakra-ui.com/
 url: "/chakra-templates"
 draft: false
 page_draft: false
+
+handpicked_themes:
+  - "nextjs-veerage-dashboard"
 ---
