@@ -23,6 +23,43 @@ const CookieConsent = () => {
   const [zoom, setZoom] = useState(1);
   const [bookmarkText, setBookmarkText] = useState(false);
 
+  // welcome cookies
+  const [welcomeDate, setWelcomeDate] = useCookie("welcomeDate", "");
+  const [welcomeReferrer, setWelcomeReferrer] = useCookie(
+    "welcomeReferrer",
+    "",
+  );
+  const [welcomeLandingPage, setWelcomeLandingPage] = useCookie(
+    "welcomeLandingPage",
+    "",
+  );
+
+  useEffect(() => {
+    const currentDate = new Date(Date.now()).toISOString().slice(0, 10);
+    !welcomeDate &&
+      setWelcomeDate(currentDate, {
+        days: 365 * 10,
+        SameSite: "Strict",
+        Secure: true,
+      });
+
+    const referrerSite = document.referrer.toString();
+    !welcomeReferrer &&
+      setWelcomeReferrer(referrerSite, {
+        days: 365 * 10,
+        SameSite: "Strict",
+        Secure: true,
+      });
+
+    const landingPage = window.location.pathname.toString();
+    !welcomeLandingPage &&
+      setWelcomeLandingPage(landingPage, {
+        days: 365 * 10,
+        SameSite: "Strict",
+        Secure: true,
+      });
+  }, []);
+
   // cookie check from browser
   useEffect(() => {
     // get cookie accept state
