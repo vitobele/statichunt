@@ -21,8 +21,6 @@ cms:
 category:
   - Ecommerce
 draft: false
-weight: 24
-home_weight: 33
 ---
 ## Key Features
 

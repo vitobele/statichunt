@@ -22,8 +22,6 @@ publish_date: '2022-10-18T18:15:20Z'
 update_date: '2023-04-29T17:54:14Z'
 github_star: 18728
 github_fork: 2592
-home_weight: null
-weight: null
 ---
 ## Key Features
 

@@ -19,8 +19,6 @@ cms: []
 category:
   - Business
 draft: false
-home_weight: null
-weight: null
 ---
 ## Key Features
 

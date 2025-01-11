@@ -1,7 +1,6 @@
 ---
 title: Biztrox Hugo
 download: https://gethugothemes.com/products/biztrox?aff=statichunt
-github: null
 price: 77
 demo: https://demo.gethugothemes.com/biztrox/site/
 author: Gethugothemes
@@ -20,7 +19,6 @@ cms:
 category:
   - Business
 draft: false
-weight: 16
 ---
 ## Key Features
 

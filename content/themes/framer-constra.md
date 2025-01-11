@@ -13,5 +13,4 @@ ui: []
 cms: []
 category: [Business, Blog]
 draft: false
-weight: 28
 ---

@@ -19,7 +19,6 @@ cms:
 category:
   - Documentation
 draft: false
-weight: 5
 ---
 ## Key Features
 

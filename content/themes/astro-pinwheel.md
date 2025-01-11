@@ -19,8 +19,6 @@ cms:
 category:
   - Saas
 draft: false
-home_weight: 25
-weight: 23
 ---
 ## Key Features
 

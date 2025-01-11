@@ -20,5 +20,4 @@ publish_date: '2023-03-01T13:05:24Z'
 update_date: '2024-08-13T12:31:00Z'
 github_star: 267
 github_fork: 135
-weight: 6
 ---

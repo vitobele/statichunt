@@ -1,7 +1,6 @@
 ---
 title: Professors Hugo
 download: https://gethugothemes.com/products/professors?aff=statichunt
-github: null
 price: 77
 demo: https://demo.gethugothemes.com/professors/site/
 author: Gethugothemes
@@ -22,7 +21,6 @@ category:
   - Blog
   - Portfolio
 draft: false
-weight: 20
 ---
 
 ## Key Features
