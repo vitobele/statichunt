@@ -9,3 +9,5 @@ url: "/material-templates"
 draft: false
 page_draft: true
 ---
+
+Explore a collection of top-rated Material UI templates designed for various website types, including blogs, portfolios, businesses, and admin dashboards.
