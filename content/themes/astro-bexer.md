@@ -23,7 +23,6 @@ category:
   - Saas
   - Agency
 draft: false
-weight: 20
 ---
 ## Key Features
 

@@ -17,7 +17,6 @@ cms:
 category:
   - others
 draft: false
-weight: 21
 ---
 ## Key Features
 

@@ -18,8 +18,6 @@ cms:
 category:
   - Blog
 draft: false
-home_weight: null
-weight: 17
 publish_date: '2024-02-27T10:13:55Z'
 update_date: '2024-02-27T10:13:25Z'
 github_star: 6

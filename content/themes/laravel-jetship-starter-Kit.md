@@ -21,8 +21,6 @@ category:
   - Dashboard
 
 draft: false
-weight: 1
-home_weight: 13
 ---
 
 ## Key Features

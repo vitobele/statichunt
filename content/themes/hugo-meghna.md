@@ -23,8 +23,6 @@ update_date: '2024-12-22T10:29:14Z'
 github_star: 439
 github_fork: 1229
 draft: false
-home_weight: 32
-weight: 11
 ---
 ## Key Features
 

@@ -1,7 +1,6 @@
 ---
 title: Delta Hugo
 download: https://gethugothemes.com/products/delta?aff=statichunt
-github: null
 price: 77
 demo: https://demo.gethugothemes.com/delta/site/
 author: Gethugothemes
@@ -21,7 +20,6 @@ category:
   - Saas
   - Business
 draft: false
-weight: 19
 ---
 
 ## Key Features

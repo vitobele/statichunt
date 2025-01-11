@@ -45,6 +45,7 @@ const RegularPages = ({
     image,
     noindex,
     canonical,
+    handpicked_themes,
   } = currentPage[0]?.frontmatter;
 
   const [showIntro, SetShowIntro] = useState(true);
@@ -53,7 +54,7 @@ const RegularPages = ({
 
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort({
     themes: themesWithOthersCategory,
-    weightType: "weight",
+    handpicked: handpicked_themes,
     slug: slug,
   });
 

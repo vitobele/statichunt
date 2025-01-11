@@ -15,8 +15,6 @@ ui: []
 cms: []
 category: []
 draft: false
-home_weight: 32
-weight: 15
 github_star: 63
 github_fork: 44
 publish_date: '2022-01-20T09:54:11Z'

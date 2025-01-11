@@ -1,7 +1,6 @@
 ---
 title: Redlab Hugo
 download: https://gethugothemes.com/products/redlab?aff=statichunt
-github: null
 price: 77
 demo: https://demo.gethugothemes.com/redlab/site/
 author: Gethugothemes
@@ -22,7 +21,6 @@ category:
   - Blog
   - Portfolio
 draft: false
-weight: 14
 ---
 ## Key Features
 

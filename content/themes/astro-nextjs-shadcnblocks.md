@@ -22,8 +22,6 @@ category:
   - Portfolio
   - Dashboard
 draft: false
-home_weight: 3
-weight: 3
 ---
 
 ## Key Features

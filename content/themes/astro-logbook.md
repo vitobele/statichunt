@@ -21,7 +21,6 @@ category:
   - Blog
   - Portfolio
 draft: false
-weight: 16
 ---
 ## Key Features
 

@@ -1,7 +1,6 @@
 ---
 title: Eduzone
 download: https://1.envato.market/VyzLP6
-github: null
 price: 39
 demo: https://jekyll-eduzone.netlify.app/
 author: Themeix

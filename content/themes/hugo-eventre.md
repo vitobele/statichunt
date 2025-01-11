@@ -20,7 +20,6 @@ cms:
 category:
   - Business
 draft: false
-weight: 28
 ---
 ## Key Features
 

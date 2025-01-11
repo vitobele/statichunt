@@ -20,7 +20,7 @@ import SponsorCards from "layouts/SponsorCards";
 import { useState } from "react";
 
 const Home = ({
-  frontmatter: { intro },
+  frontmatter: { intro, handpicked_themes },
   cms,
   css,
   ui,
@@ -33,7 +33,7 @@ const Home = ({
   const themesWithOthersCategory = setOthersCategory(themes);
   const { sortedThemes, handleSortThemes, sortValue } = useThemesSort({
     themes: themesWithOthersCategory,
-    weightType: "home_weight",
+    handpicked: handpicked_themes,
   });
 
   const {

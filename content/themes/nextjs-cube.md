@@ -18,6 +18,4 @@ cms: []
 category:
   - Saas
 draft: false
-home_weight: null
-weight: null
 ---

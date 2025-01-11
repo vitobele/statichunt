@@ -23,7 +23,6 @@ category:
   - Saas
 draft: false
 home_weight:
-weight: 2
 ---
 ## Key Features
 

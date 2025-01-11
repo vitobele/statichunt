@@ -19,7 +19,6 @@ cms:
 category:
   - Portfolio
 draft: false
-weight: 32
 ---
 
 ## Key Features

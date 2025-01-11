@@ -17,7 +17,6 @@ cms:
 category:
   - Blog
 draft: false
-weight: 37
 ---
 ## Key Features
 

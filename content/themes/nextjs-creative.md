@@ -18,6 +18,4 @@ cms: []
 category:
   - Portfolio
 draft: false
-home_weight: null
-weight: null
 ---
