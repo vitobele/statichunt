@@ -4,6 +4,7 @@ import Posts from "@/layouts/Posts";
 import { getSinglePage } from "@/lib/contentParser";
 import { getTaxonomy } from "@/lib/taxonomyParser";
 import { humanize, slugify } from "@/lib/utils/textConverter";
+import { sortByDate } from "lib/utils/sortFunctions";
 
 // category page
 const Category = ({ category, posts, authors }) => {
@@ -52,9 +53,14 @@ export const getStaticProps = ({ params }) => {
       slugify(category).includes(params.category),
     ),
   );
+  const sortPostByDate = sortByDate(filterPosts);
   const authors = getSinglePage("content/blog-authors");
 
   return {
-    props: { posts: filterPosts, category: params.category, authors: authors },
+    props: {
+      posts: sortPostByDate,
+      category: params.category,
+      authors: authors,
+    },
   };
 };
