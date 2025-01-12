@@ -19,7 +19,6 @@ const BlogPagination = ({
   const indexOfFirstPost = indexOfLastPost - pagination;
   const totalPages = Math.ceil(posts.length / pagination);
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
-  const sortedPosts = sortByDate(currentPosts);
   const { frontmatter, content } = postIndex;
   const { title, meta_title } = frontmatter;
 
@@ -34,7 +33,7 @@ const BlogPagination = ({
                 {markdownify(title, "h1", "mb-4")}
                 {markdownify(content, "p")}
               </div>
-              <Posts posts={sortedPosts} authors={authors} />
+              <Posts posts={currentPosts} authors={authors} />
               <Pagination
                 section={"blog"}
                 totalPages={totalPages}
@@ -77,13 +76,14 @@ export const getStaticProps = async ({ params }) => {
   const currentPage = parseInt((params && params.slug) || 1);
   const { pagination } = config.settings;
   const posts = getSinglePage("content/blog");
+  const sortedPosts = sortByDate(posts);
   const authors = getSinglePage("content/blog-authors");
   const postIndex = await getListPage("content/blog/_index.md");
 
   return {
     props: {
       pagination: pagination,
-      posts: posts,
+      posts: sortedPosts,
       authors: authors,
       currentPage: currentPage,
       postIndex: postIndex,
